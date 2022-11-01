@@ -24,13 +24,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           <img
             src={projectImageLogo}
             alt={projectName}
-            className="rounded-lg shadow-lg"
+            className="w-full m-auto shadow-lg rounded-md object-cover max-h-32"
           />
         </figure>
         <div className="max-w-sm card-body">
           <h2 className="card-title ">{projectName}</h2>
           <p>{projectDescription}</p>
-          <div className="flex">
+          <div className="flex flex-wrap">
             {tech.map((tech) => (
               <div
                 className={`my-2 mr-2 badge ${

@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
         <Illustration />
         <div className="flex flex-col pt-3 bg-current md:items-center f-f-l">
           <h1 className="text-4xl font-black text-neutral-content">
-            Piyush Mehta
+            Maximiliano Olivera
           </h1>
           <div className="my-3 text-base text-center text-neutral-content ">
             <ul className="items-center md:flex">
@@ -40,8 +40,8 @@ const Footer: React.FC = () => {
               Theme designed and developed with
               <HeartIcon className="inline-flex w-3 h-3 mx-0.5 mb-0.5" />
               by{" "}
-              <a href="https://piyushmehta.com" className="font-bold underline">
-                Piyush Mehta
+              <a href="molivera.tecnologoinformatico.com" className="font-bold underline">
+                Maximiliano Olivera
               </a>
             </p>
           </div>

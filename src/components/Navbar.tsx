@@ -69,8 +69,9 @@ const Navbar: React.FC<NavbarProps> = ({ menuShow, showMenu }) => {
           </ul>
         </div>
 
-        <div className="flex-1 px-2 mx-2">
-          {scrollState ? <Logo className="w-20 h-12 fill-current " /> : NAME}
+        <div className="transition-all flex-1 px-2 mx-2">
+          <img src={"https://ca.slack-edge.com/T9AR11MSQ-U01ULHTBWAW-ccdd193fcd42-512"} className="w-12 h-12 mr-2 rounded-full object-cover" />
+          <p>{NAME}</p>
         </div>
         <div className="flex-none navbar-end ">
           <div className="dropdown dropdown-end lg:flex">

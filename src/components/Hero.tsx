@@ -30,7 +30,8 @@ const Hero: React.FC<HeroProps> = ({
             transition={{ duration: 0.5 }}
           >
             <h1 className="mb-5 text-5xl font-bold ">{greetingText}</h1>
-            <p className="mb-5">{greetingDescription}</p>
+            <p className="mb-5 font-semibold text-lg">{greetingDescription}</p>
+            <p className="mb-5">Full stack developer</p>
             <Link
               to={"experience"}
               spy={true}

@@ -32,7 +32,7 @@ const TimelineCard: React.FC<TimelineCardProps> = ({
         }
       >
         <div className="card-body">
-          <img src={logo} alt={company} className="w-20" />
+          <img src={logo} alt={company} className="w-auto mb-4" />
           <span className="py-0 font-bold card-subtitle font-xs card-side">
             {position}
           </span>
